@@ -7,15 +7,15 @@
 
 **Example Attacks**
 
- * [Profiling a site](workflows/profile.md)
+ * [Profiling a site](workflows/profiling.md)
  * [Find hidden files](workflows/hidden_files.md)
  * [Password Bruteforce](workflows/password_bruteforce.md)
  * [Finding Privilege Escalation](workflows/finding_privesc.md)
 
 **Functions**
 
- * [View Requests](features/view_requests.md)
- * [Sitemap](features/view_requests.md)
+ * [View Requests](features/requests.md)
+ * [Sitemap](features/sitemap.md)
  * [Intercept in-flight requests](features/intercept.md)
  * [Repeat or make new requests](features/new_requests.md)
  * [Inject/fuzz](features/inject.md)
