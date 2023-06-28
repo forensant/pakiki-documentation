@@ -49,7 +49,6 @@
     // set the default tab to be MacOS, if we're running on MacOS and it isn't already set
     let agent = navigator.userAgent;
     if(agent.includes('Mac OS') && !sessionStorage.getItem('docsify-tabs.persist./')) {
-      console.log("Setting default tab to MacOS");
       sessionStorage.setItem('docsify-tabs.sync', '["macos","linux","web"]');
       sessionStorage.setItem('docsify-tabs.persist./', '{"0":"macos"}');
     }
