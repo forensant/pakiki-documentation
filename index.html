@@ -35,10 +35,14 @@
       name: 'Pākiki Proxy',
       repo: 'forensant/pakiki-documentation',
       loadSidebar: true,
-      subMaxLevel: 2,
+      subMaxLevel: 3,
       search: 'auto', // default
       logo: logo(darkModeMediaQuery),
-      homepage: 'Home.md'
+      homepage: 'Home.md',
+      pagination: {
+        crossChapter: true,
+        crossChapterText: true,
+      },
     }
 
     darkModeMediaQuery.addListener((e) => {
@@ -60,6 +64,7 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-bash.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
   <script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 </html>
