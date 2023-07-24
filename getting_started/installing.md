@@ -43,6 +43,8 @@ The installer should create a link in the relevant application menu, however if 
 
 Open the DMG file and drag Pākiki Proxy into the Applications folder to install it. It can then be run from the Applications folder, via Spotlight, etc.
 
+ > If you like to navigate around applications with the keyboard, it is recommended that you enable `Keyboard Navigation` within your system settings. Without this enabled, you will not be able to fully navigate the Pākiki user interface with the keyboard.
+
 ## Web Interface/Forward Deployments
 
 When the Pākiki Core is run, a web interface is also launched. By default, this listens on [http://127.0.0.1:10101](http://127.0.0.1:10101).
