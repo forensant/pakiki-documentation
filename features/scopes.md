@@ -4,8 +4,6 @@ It is possible to define scopes which can be used elsewhere within Pākiki. You 
 
 You can also import scopes from bug bounty programs.
 
- > Scopes are only used for filtering the request views at this point. They **are not** taken into account when launching inject scans or scripts. Please be careful that scripts and inject scans will not cause harm to your target site.
-
 <!-- tabs:start -->
 
 #### **Linux**
